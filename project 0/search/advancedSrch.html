@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <style>
+        .goTo {
+            text-align: right;
+            margin: 15px;
+        }
+
+        .bar {
+            margin-top: 15px;
+            margin-left: 15px;
+            width: 500px;
+            height: 25px;
+        }
+
+        .button {
+            margin-top: 10px;
+            margin-left:620px;
+            background-color: rgba(19, 76, 220, 0.9);
+            color: rgb(255, 255, 255);
+            border-radius: 7px;
+            border-style: hidden;
+            height: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: inherit;
+        }
+
+        .searchBars {
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="goTo">
+        <button>
+            <a href="index.html">Back</a>
+        </button>
+    </div>
+    <form action="https://www.google.com/search">
+        <div class="searchBars">
+            Find all pages with ...
+            <br>
+            all these words:
+            <input type="text" name="as_q" class="bar" style="margin-left: 85px;">
+            <br>
+            this exact word or phrase:
+            <input type="text" name="as_epq" class="bar" style="margin-left: 20px;">
+            <br>
+            any of these words:
+            <input type="text" name="as_oq" class="bar" style="margin-left: 61px;">
+            <br>
+            none of these words:
+            <input type="text" name="as_eq" class="bar" style="margin-left: 53px;">
+            <br>
+        </div>
+        <div class="searchButton">
+            <input type="submit" value="Advanced Search" class="button">
+        </div>
+    </form>
+</body>
+
+</html>

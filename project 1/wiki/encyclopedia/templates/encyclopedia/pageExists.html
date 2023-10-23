@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Page Exists!!
+{% endblock %}
+
+{% block body %}
+The {{title}} page you are trying to create already exists.
+<a href="/wiki/edit/{{title}}" >
+    <button>Edit</button>
+  </a>
+  {% endblock %}

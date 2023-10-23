@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <style>
+        .goTo {
+            text-align: right;
+            margin: 15px;
+            color: aqua;
+        }
+
+        .searchBar {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .searchButton {
+            text-align: center;
+        }
+
+        .bar {
+            width: 40%;
+            padding: 1%;
+            border-radius: 20px;
+            border-color: rgb(255, 255, 255);
+            border-style: groove;
+        }
+
+        .button {
+            width: 130px;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 15px;
+            border-radius: 5px;
+            border-color: rgb(255, 255, 255);
+            border-style: hidden;
+            background-color: rgb(249, 248, 248);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="goTo">
+        <button>
+            <a href="imagesSrch.html">Google Images</a>
+        </button>
+        <button>
+            <a href="advancedSrch.html">Advanced Search</a>
+        </button>
+    </div>
+    <div style="text-align: center; margin-top: 10%;">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"
+            style="width:275px;">
+    </div>
+    <form action="https://www.google.com/search">
+        <div class="searchBar">
+            <input type="text" name="q" class="bar">
+        </div>
+        <div class="searchButton">
+            <input type="submit" name="btnK" value="Google Search" class="button">
+            <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button">
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block body %}
+    <h1>{{title}} not found. </h1><br><br>
+    <h2> Did you mean any of the following? </h2>
+    <br>
+
+    <ul>
+        {% for entry in entries %}
+           <li> <a href="{{entry}}">{{entry}}</a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
