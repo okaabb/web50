@@ -1,0 +1,10 @@
+
+body {
+    padding: 60px;
+}
+
+.mycolumn {
+    float: left;
+    width: 50%;
+    color: aqua;
+}
